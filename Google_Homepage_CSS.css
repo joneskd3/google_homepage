@@ -1,0 +1,143 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.header{
+
+}
+
+body{
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+	
+.topNav{
+	float:right;
+	margin: 7px 15px 0 0;
+}
+
+.topNav li{
+display:inline-block;
+text-align:right;
+margin-right: 10px;
+vertical-align:middle;
+}
+
+a{
+	text-decoration:none;
+	color:#404040;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.apps{
+	height:30px; width: 30px;
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_71651352.png");
+	background-position:-328px -52px;
+}
+.signIn{ 
+	color:white;
+	font-weight:bold;
+	border-radius:2px;
+	background-color: rgb(67, 135, 253);
+	padding: 7px 15px;
+}
+
+#googleLogo{
+display:block;
+position: relative;
+margin: auto;
+margin-bottom: 20px; 
+padding-top: 112px;
+height: 95px; width:269;
+}
+
+.searchBar{
+	display:block;
+	margin: auto;
+	width: 570px;
+	height: 29px;
+	border: 1px solid #DCDCDC;
+}
+.search{
+	display:inline-block;
+	float: left;
+	width: 535px;
+	height: 27px;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 10px;
+	border: 0;
+}
+.mic{
+	display:inline-block;
+	float:right;
+	float: right;
+	width: auto;
+	height: 20px;
+	padding: 3px 4px 0 0;
+
+}
+
+.submitContainer{
+margin: 20px;
+text-align: center;
+}
+
+.submit{
+	margin-right: 8px;
+	border: 1px solid #dcdcdc;
+	font-size: 11px;
+	background: #f5f5f5;
+	padding: 8px 10px;
+	font-weight: bold;
+	border-radius: 2px;
+    }
+	
+.footer{
+	width: 100%; 
+	position: absolute;
+	bottom: 0px;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+}	
+
+.left{
+	float: left;
+	margin-left: 20px;
+}	
+
+.left li, .right li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.right{
+	float: right;
+	margin-right: 20px;
+}
+	
+/*Clearfix*/
+
+.cf:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+	clear:both;
+}
+
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+
+}
